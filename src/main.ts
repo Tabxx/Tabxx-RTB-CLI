@@ -1,6 +1,6 @@
 let str: string = 'Hello RTB CLI!'
-const arr: number[] = [1, 2, 3]
-arr.map(item => {
+const arr: number[] = [1, 2, 3, 4]
+arr.map((item) => {
   str += item.toString()
 })
 document.body.innerHTML = str
