@@ -1,5 +1,5 @@
 let str: string = 'Hello RTB CLI!'
-const arr: number[] = [1, 2, 3, 4]
+const arr: number[] = [1, 2, 34]
 arr.map((item) => {
   str += item.toString()
 })
