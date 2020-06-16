@@ -5,6 +5,9 @@ arr.map((item) => {
 })
 document.body.innerHTML = str
 
+const env = process.env.NODE_ENV
+console.log(env)
+
 document.write(
   '<script src="http://' +
     (location.host || 'localhost').split(':')[0] +
