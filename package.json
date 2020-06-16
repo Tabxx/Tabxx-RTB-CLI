@@ -8,7 +8,7 @@
     "dev": "cross-env NODE_ENV=development rollup -c -w",
     "test": "jest",
     "plugins": "node ./plugins/index.js",
-    "release": "node ./plugins/deploy.js && node ./test/version.js"
+    "release": "npm run build && node ./plugins/deploy.js && node ./test/version.js"
   },
   "repository": {
     "type": "git",
