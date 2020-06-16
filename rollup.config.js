@@ -4,6 +4,7 @@ import clear from 'rollup-plugin-clear'
 import livereload from 'rollup-plugin-livereload'
 import { terser } from 'rollup-plugin-terser'
 const env = process.env.NODE_ENV
+console.log(env)
 
 if (env === 'development') {
   base.plugins.push(
