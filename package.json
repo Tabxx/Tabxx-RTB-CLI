@@ -7,7 +7,8 @@
         "build": "cross-env NODE_ENV=production rollup -c",
         "dev": "cross-env NODE_ENV=development rollup -c -w",
         "test": "jest",
-        "plugins": "node ./plugins/index.js"
+        "plugins": "node ./plugins/index.js",
+        "release": "node ./test/version.js"
     },
     "repository": {
         "type": "git",
