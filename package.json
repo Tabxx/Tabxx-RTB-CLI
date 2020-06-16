@@ -1,6 +1,6 @@
 {
   "name": "rtb-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "基于 Rollup+TypeScript + Babel  搭建 ts脚手架",
   "main": "index.js",
   "scripts": {
